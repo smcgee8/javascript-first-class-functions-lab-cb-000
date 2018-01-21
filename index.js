@@ -9,9 +9,9 @@ function createMultiplier(multiplierValue) {
 var doubler = createMultiplier(2);
 var tripler = createMultiplier(3);
 
-function multiplier(input, multiplierValue) {
+function multiplier(multiplierValue, input) {
 
 }
 
 var doublerWithBind =
-var triplerWithBind = 
+var triplerWithBind =
