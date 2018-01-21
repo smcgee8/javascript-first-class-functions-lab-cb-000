@@ -13,5 +13,5 @@ function multiplier(multiplierValue, input) {
 
 }
 
-var doublerWithBind =
-var triplerWithBind =
+var doublerWithBind = multiplier.bind(null, 2);
+var triplerWithBind = multiplier.bind(null, 3);
